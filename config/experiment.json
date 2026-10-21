@@ -1,0 +1,48 @@
+{
+  "run": "youtube_20261020T145336Z",
+  "capture_file": "data/raw/youtube-media.pcap",
+  "capture_start_epoch": "1792508017.3180876",
+  "selection_filter": "(ip.src == 173.194.160.194) and ((tcp.srcport == 443 and tcp.len > 0) or udp.srcport == 443)",
+  "intervals_s": {
+    "analysis_start": 60,
+    "fitting_end": 270,
+    "analysis_end": 360
+  },
+  "onoff_threshold_s": 0.1,
+  "seed": 20261020,
+  "replicates": 1000,
+  "video": {
+    "url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
+    "title": "Big Buck Bunny 60fps 4K - Official Blender Foundation Short Film",
+    "prerecorded": true,
+    "selected_quality": "1080p60",
+    "playback_speed": 1,
+    "autoplay_next": false,
+    "audio_and_video_downloads_retained": true
+  },
+  "capture": {
+    "snapshot_length_bytes": 128,
+    "promiscuous": false,
+    "reported_capture_drops": 0,
+    "observed_media_protocol": "http/1.1",
+    "timestamp_interpretation": "Receiver software timestamps, not sender or physical wire times"
+  },
+  "network": {
+    "access": "Shared university Wi-Fi",
+    "mode": "802.11ax",
+    "band_ghz": 5,
+    "ethernet": "Disconnected",
+    "bandwidth_emulation": "None"
+  },
+  "browser": {
+    "dedicated_profile": true,
+    "cache_disabled": true
+  },
+  "playback_monitoring": {
+    "samples_after_startup": 148,
+    "muted_samples": 46,
+    "unmuted_samples": 102,
+    "all_samples_1080p_1x_unpaused_without_ads": true,
+    "limitation": "Sampled controls, not continuous proof; muting varied during recording"
+  }
+}

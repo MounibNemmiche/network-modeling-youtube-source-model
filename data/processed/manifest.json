@@ -1,0 +1,11 @@
+{
+  "run": "youtube_20261020T145336Z",
+  "capture_file": "data/raw/youtube-media.pcap",
+  "capture_sha256": "9e9aff94243954ed843776936ea8b4893ee7884fc86a26403d964bb9a8e9b03d",
+  "packets": 66836,
+  "retransmission_flags": 21,
+  "selection_filter": "(ip.src == 173.194.160.194) and ((tcp.srcport == 443 and tcp.len > 0) or udp.srcport == 443)",
+  "time_origin_epoch": "1792508017.3180876",
+  "length_definition": "Original IPv4 total length, including headers, in bytes",
+  "frame_number_definition": "Frame number in the filtered media capture"
+}

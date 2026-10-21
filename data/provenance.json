@@ -1,0 +1,23 @@
+{
+  "run": "youtube_20261020T145336Z",
+  "source_capture_sha256": "513c7371fdd91e863445791bfd31fd8eecf2adcad3f443c67074157d491f315f",
+  "source_capture_format": "PCAPNG",
+  "source_capture_frames": 150893,
+  "published_capture": "data/raw/youtube-media.pcap",
+  "published_capture_sha256": "9e9aff94243954ed843776936ea8b4893ee7884fc86a26403d964bb9a8e9b03d",
+  "published_capture_format": "Nanosecond PCAP; PCAPNG interface metadata omitted",
+  "selected_packets": 66836,
+  "selection_filter": "(ip.src == 173.194.160.194) and ((tcp.srcport == 443 and tcp.len > 0) or udp.srcport == 443)",
+  "endpoint_attribution": "Browser /videoplayback response metadata identified the media server",
+  "transport_counts": {
+    "TCP": 66836,
+    "UDP": 0
+  },
+  "preservation": "Selected packet bytes, timestamps, and original frame lengths preserved; frame numbers renumbered",
+  "privacy": "Original network addresses remain; unrelated packets, browser profile, and host configuration snapshots omitted",
+  "assistance": "ChatGPT AI assistance with experiment automation, modeling, analysis and plotting code, report drafting, and repository preparation",
+  "source_capture_retransmission_flags": 10,
+  "subset_reanalysis_retransmission_flags": 21,
+  "retransmission_flag_note": "TShark stateful flags change when reverse-path packets are absent; flags are not used to fit the source models and are not network loss counts",
+  "endpoint_evidence": "data/endpoint-attribution.json"
+}

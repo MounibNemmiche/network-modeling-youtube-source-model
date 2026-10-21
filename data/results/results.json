@@ -1,0 +1,498 @@
+{
+  "run": "youtube_20261020T145336Z",
+  "seed": 20261020,
+  "replicates_per_model": 1000,
+  "fit_interval_capture_s": [
+    60,
+    270
+  ],
+  "holdout_interval_capture_s": [
+    270,
+    360
+  ],
+  "all": {
+    "duration_s": 300,
+    "packets": 49933,
+    "bytes": 72261943,
+    "mean_Mbps": 1.9269851466666668,
+    "mean_gap_ms": 5.521755976127533,
+    "median_gap_us": 0.7,
+    "cv_gap": 63.37578748792848,
+    "lag1_gap_correlation": -6.903203202653664e-06,
+    "max_gap_s": 25.6978947,
+    "min_gap_ns": 300.0,
+    "mean_size_bytes": 1447.178078625358,
+    "windows": {
+      "0.01": {
+        "empty_fraction": 0.9833,
+        "count_fano": 116.36469933012347,
+        "p99_Mbps": 104.544,
+        "peak_Mbps": 322.9248,
+        "mean_Mbps": 1.9269851466666668
+      },
+      "0.1": {
+        "empty_fraction": 0.9763333333333334,
+        "count_fano": 845.508790455436,
+        "p99_Mbps": 106.55644559999988,
+        "peak_Mbps": 134.97792,
+        "mean_Mbps": 1.926985146666667
+      },
+      "1.0": {
+        "empty_fraction": 0.9366666666666666,
+        "count_fano": 3508.0805611291707,
+        "p99_Mbps": 45.74362751999996,
+        "peak_Mbps": 59.426512,
+        "mean_Mbps": 1.9269851466666668
+      }
+    }
+  },
+  "fit": {
+    "duration_s": 210,
+    "packets": 32768,
+    "bytes": 47399900,
+    "mean_Mbps": 1.8057104761904763,
+    "mean_gap_ms": 6.173872322763756,
+    "median_gap_us": 0.7,
+    "cv_gap": 59.48076100762455,
+    "lag1_gap_correlation": -0.00024867652589546506,
+    "max_gap_s": 25.6978947,
+    "min_gap_ns": 300.0,
+    "mean_size_bytes": 1446.5301513671875,
+    "windows": {
+      "0.01": {
+        "empty_fraction": 0.9839523809523809,
+        "count_fano": 110.45501064596826,
+        "p99_Mbps": 104.544,
+        "peak_Mbps": 304.3392,
+        "mean_Mbps": 1.805710476190476
+      },
+      "0.1": {
+        "empty_fraction": 0.9780952380952381,
+        "count_fano": 850.8931135129451,
+        "p99_Mbps": 106.55644559999988,
+        "peak_Mbps": 134.97792,
+        "mean_Mbps": 1.8057104761904763
+      },
+      "1.0": {
+        "empty_fraction": 0.9333333333333333,
+        "count_fano": 3083.514202209181,
+        "p99_Mbps": 43.36081616,
+        "peak_Mbps": 45.69704,
+        "mean_Mbps": 1.8057104761904763
+      }
+    }
+  },
+  "holdout": {
+    "duration_s": 90,
+    "packets": 17165,
+    "bytes": 24862043,
+    "mean_Mbps": 2.2099593777777775,
+    "mean_gap_ms": 4.276926765322769,
+    "median_gap_us": 0.7,
+    "cv_gap": 73.49811434428597,
+    "lag1_gap_correlation": 0.0005991172688923722,
+    "max_gap_s": 24.5706621,
+    "min_gap_ns": 300.0,
+    "mean_size_bytes": 1448.4149723274104,
+    "windows": {
+      "0.01": {
+        "empty_fraction": 0.9817777777777777,
+        "count_fano": 127.6150842342032,
+        "p99_Mbps": 109.1904,
+        "peak_Mbps": 322.9248,
+        "mean_Mbps": 2.209959377777778
+      },
+      "0.1": {
+        "empty_fraction": 0.9722222222222222,
+        "count_fano": 835.6707488367013,
+        "p99_Mbps": 106.22715839999995,
+        "peak_Mbps": 128.58912,
+        "mean_Mbps": 2.209959377777778
+      },
+      "1.0": {
+        "empty_fraction": 0.9444444444444444,
+        "count_fano": 4356.583238691221,
+        "p99_Mbps": 58.54118984,
+        "peak_Mbps": 59.426512,
+        "mean_Mbps": 2.209959377777778
+      }
+    },
+    "cdf_gap_reference": "Successive selected packet times strictly inside the 90-second holdout"
+  },
+  "fit_parameters": {
+    "poisson_lambda_packets_s": 156.03809523809525,
+    "renewal_mean_gap_ms": 6.173872322763756,
+    "batch_distribution": {
+      "1": 1.0
+    },
+    "size_support_bytes": [
+      64,
+      65,
+      66,
+      67,
+      69,
+      72,
+      76,
+      142,
+      143,
+      166,
+      222,
+      239,
+      258,
+      263,
+      279,
+      311,
+      387,
+      440,
+      472,
+      556,
+      707,
+      792,
+      795,
+      946,
+      1015,
+      1056,
+      1082,
+      1100,
+      1256,
+      1452
+    ],
+    "size_probabilities": [
+      0.0009765625,
+      0.0009765625,
+      0.0003662109375,
+      0.00018310546875,
+      0.000152587890625,
+      0.000274658203125,
+      0.0003662109375,
+      3.0517578125e-05,
+      3.0517578125e-05,
+      3.0517578125e-05,
+      3.0517578125e-05,
+      3.0517578125e-05,
+      3.0517578125e-05,
+      0.000152587890625,
+      3.0517578125e-05,
+      3.0517578125e-05,
+      3.0517578125e-05,
+      3.0517578125e-05,
+      3.0517578125e-05,
+      6.103515625e-05,
+      6.103515625e-05,
+      3.0517578125e-05,
+      3.0517578125e-05,
+      3.0517578125e-05,
+      0.00030517578125,
+      3.0517578125e-05,
+      3.0517578125e-05,
+      3.0517578125e-05,
+      3.0517578125e-05,
+      0.995574951171875
+    ],
+    "active_gap_mean_us": 111.36450040116027,
+    "active_gap_samples": 32406,
+    "complete_cycles": 9,
+    "on_durations_s": [
+      0.3742201000000023,
+      0.29172439999999256,
+      0.3043615999999929,
+      0.3935102999999742,
+      0.3843354999999917,
+      0.34085879999997815,
+      0.3987529000000052,
+      0.6315358999999887,
+      0.48957849999999326
+    ],
+    "off_durations_s": [
+      20.335830700000002,
+      21.226268700000006,
+      22.23412000000002,
+      23.506114300000007,
+      19.25459120000002,
+      19.9991914,
+      25.697894700000006,
+      23.876757000000026,
+      22.532462099999975
+    ],
+    "active_packet_counts": [
+      3723,
+      2931,
+      3059,
+      3903,
+      3316,
+      3395,
+      3741,
+      4040,
+      4307
+    ],
+    "mean_on_s": 0.40098644444443543,
+    "mean_off_s": 22.073692233333343,
+    "threshold_s": 0.1,
+    "threshold_checks_fit_only": {
+      "0.1": {
+        "groups": 10,
+        "complete_cycles": 9
+      },
+      "0.5": {
+        "groups": 10,
+        "complete_cycles": 9
+      },
+      "1.0": {
+        "groups": 10,
+        "complete_cycles": 9
+      }
+    },
+    "mean_size_bytes": 1446.5301513671875,
+    "max_size_mass": 0.995574951171875,
+    "poisson_longrun_Mbps": 1.8057104761904765,
+    "renewal_longrun_Mbps": 1.8743894602856226,
+    "onoff_renewal_rate_approx_Mbps": 1.8539879383480464
+  },
+  "models": {
+    "poisson": {
+      "representative_seed": 20261020,
+      "representative": {
+        "duration_s": 90,
+        "packets": 14197,
+        "bytes": 20547510,
+        "mean_Mbps": 1.8264453333333333,
+        "mean_gap_ms": 6.339158578684137,
+        "median_gap_us": 4407.7384999999995,
+        "cv_gap": 1.0016799380339128,
+        "lag1_gap_correlation": -0.00010621836610152113,
+        "max_gap_s": 0.067531989,
+        "min_gap_ns": 426.0,
+        "mean_size_bytes": 1447.3135169401987,
+        "windows": {
+          "0.01": {
+            "empty_fraction": 0.2068888888888889,
+            "count_fano": 0.9960972395772992,
+            "p99_Mbps": 5.808,
+            "peak_Mbps": 10.4544,
+            "mean_Mbps": 1.8264453333333335
+          },
+          "0.1": {
+            "empty_fraction": 0.0,
+            "count_fano": 0.9435864460233535,
+            "p99_Mbps": 2.904,
+            "peak_Mbps": 3.4848,
+            "mean_Mbps": 1.8264453333333333
+          },
+          "1.0": {
+            "empty_fraction": 0.0,
+            "count_fano": 1.1153812365802873,
+            "p99_Mbps": 2.16043192,
+            "peak_Mbps": 2.230272,
+            "mean_Mbps": 1.8264453333333333
+          }
+        },
+        "gap_cdf_distance": 0.9289114595614785,
+        "size_cdf_distance": 0.0010533112346283883
+      },
+      "ensemble": {
+        "mean_Mbps": {
+          "mean": 1.8058328002666668,
+          "sd": 0.01576361298971287,
+          "p025": 1.7760520022222221,
+          "p975": 1.8350384199999998
+        },
+        "empty_fraction_100ms": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "p025": 0.0,
+          "p975": 0.0
+        },
+        "count_fano_100ms": {
+          "mean": 0.9997677395639294,
+          "sd": 0.04824301258552375,
+          "p025": 0.9154801633384179,
+          "p975": 1.1002927677308594
+        },
+        "p99_Mbps_100ms": {
+          "mean": 2.936949319199999,
+          "sd": 0.07209704246137627,
+          "p025": 2.78784,
+          "p975": 3.026394359999999
+        },
+        "gap_cdf_distance": {
+          "mean": 0.9306224423604887,
+          "sd": 0.0014000692526474187,
+          "p025": 0.9280049499460358,
+          "p975": 0.9333569840888015
+        },
+        "size_cdf_distance": {
+          "mean": 0.0016691901631796667,
+          "sd": 0.000547556119499095,
+          "p025": 0.0006006492923780626,
+          "p975": 0.0027449911522396393
+        }
+      }
+    },
+    "renewal": {
+      "representative_seed": 20271020,
+      "representative": {
+        "duration_s": 90,
+        "packets": 5859,
+        "bytes": 8471196,
+        "mean_Mbps": 0.7529952,
+        "mean_gap_ms": 11.26434175486514,
+        "median_gap_us": 0.7,
+        "cv_gap": 43.91866458017465,
+        "lag1_gap_correlation": -0.0005158833617971406,
+        "max_gap_s": 23.876757,
+        "min_gap_ns": 300.0,
+        "mean_size_bytes": 1445.8433179723502,
+        "windows": {
+          "0.01": {
+            "empty_fraction": 0.9936666666666667,
+            "count_fano": 126.41424930471024,
+            "p99_Mbps": 0.0,
+            "peak_Mbps": 266.0064,
+            "mean_Mbps": 0.7529952
+          },
+          "0.1": {
+            "empty_fraction": 0.9888888888888889,
+            "count_fano": 845.7919466756882,
+            "p99_Mbps": 7.745651999999928,
+            "peak_Mbps": 128.86536,
+            "mean_Mbps": 0.7529952000000001
+          },
+          "1.0": {
+            "empty_fraction": 0.9444444444444444,
+            "count_fano": 1589.4399454598802,
+            "p99_Mbps": 16.237648159999992,
+            "peak_Mbps": 27.915032,
+            "mean_Mbps": 0.7529951999999999
+          }
+        },
+        "gap_cdf_distance": 0.04680194813332128,
+        "size_cdf_distance": 0.002611133458788571
+      },
+      "ensemble": {
+        "mean_Mbps": {
+          "mean": 1.8062223248,
+          "sd": 0.8818013430179602,
+          "p025": 0.44006665333333334,
+          "p975": 3.861115977777777
+        },
+        "empty_fraction_100ms": {
+          "mean": 0.9781544444444443,
+          "sd": 0.008598446957457125,
+          "p025": 0.9588888888888889,
+          "p975": 0.9911111111111112
+        },
+        "count_fano_100ms": {
+          "mean": 834.6197069191354,
+          "sd": 86.09388239216418,
+          "p025": 622.245835758523,
+          "p975": 966.3851132217435
+        },
+        "p99_Mbps_100ms": {
+          "mean": 73.69562311839994,
+          "sd": 35.88974413540652,
+          "p025": 0.0,
+          "p975": 120.60929447999999
+        },
+        "gap_cdf_distance": {
+          "mean": 0.039952113362184224,
+          "sd": 0.004742407205381507,
+          "p025": 0.031138824364571,
+          "p975": 0.05030759703116386
+        },
+        "size_cdf_distance": {
+          "mean": 0.0017200223011536206,
+          "sd": 0.0006009888920482734,
+          "p025": 0.0005908690295616235,
+          "p975": 0.002968758863076449
+        }
+      }
+    },
+    "onoff": {
+      "representative_seed": 20281020,
+      "representative": {
+        "duration_s": 90,
+        "packets": 15351,
+        "bytes": 22197661,
+        "mean_Mbps": 1.973125422222222,
+        "mean_gap_ms": 4.920749921824104,
+        "median_gap_us": 0.7,
+        "cv_gap": 70.14068227962886,
+        "lag1_gap_correlation": -0.00020316578143943882,
+        "max_gap_s": 25.7012888,
+        "min_gap_ns": 300.0,
+        "mean_size_bytes": 1446.0074913686406,
+        "windows": {
+          "0.01": {
+            "empty_fraction": 0.9834444444444445,
+            "count_fano": 129.81087388968567,
+            "p99_Mbps": 90.64025600000078,
+            "peak_Mbps": 291.5616,
+            "mean_Mbps": 1.973125422222222
+          },
+          "0.1": {
+            "empty_fraction": 0.9766666666666667,
+            "count_fano": 893.8727509318652,
+            "p99_Mbps": 97.01604799999998,
+            "peak_Mbps": 145.23896,
+            "mean_Mbps": 1.973125422222222
+          },
+          "1.0": {
+            "empty_fraction": 0.9444444444444444,
+            "count_fano": 3754.001539262164,
+            "p99_Mbps": 47.45651528,
+            "peak_Mbps": 51.225352,
+            "mean_Mbps": 1.9731254222222225
+          }
+        },
+        "gap_cdf_distance": 0.035357391464750476,
+        "size_cdf_distance": 0.0019452340240792873
+      },
+      "ensemble": {
+        "mean_Mbps": {
+          "mean": 1.8693425090666667,
+          "sd": 0.30349760518873814,
+          "p025": 1.2975922800000002,
+          "p975": 2.540436033333333
+        },
+        "empty_fraction_100ms": {
+          "mean": 0.9779377777777778,
+          "sd": 0.0030091626739460068,
+          "p025": 0.9711111111111111,
+          "p975": 0.9844444444444445
+        },
+        "count_fano_100ms": {
+          "mean": 867.99147690716,
+          "sd": 60.16514991962195,
+          "p025": 745.5727561936786,
+          "p975": 987.7434719370694
+        },
+        "p99_Mbps_100ms": {
+          "mean": 90.36321347599994,
+          "sd": 13.00794652389949,
+          "p025": 61.91109897999997,
+          "p975": 112.89495987999997
+        },
+        "gap_cdf_distance": {
+          "mean": 0.03979952250284972,
+          "sd": 0.00403845024295038,
+          "p025": 0.03165254030771899,
+          "p975": 0.048257983647296325
+        },
+        "size_cdf_distance": {
+          "mean": 0.001652662718426281,
+          "sd": 0.0005458471225590217,
+          "p025": 0.0006851719896874383,
+          "p975": 0.002783552449145977
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Only nine fully observed fitting cycles; boundary-censored ON periods are excluded from duration fitting.",
+    "The chronological validation boundary intersects an ON period, which can affect short-window totals.",
+    "Independent empirical draws are stochastic models, not replayed timestamp blocks.",
+    "Software receiver timestamps and network packet sizes describe the observed source after transport and path effects.",
+    "Shared Wi-Fi conditions and one video/session do not establish general application behavior.",
+    "Reported Monte Carlo spreads are predictive simulation variation, not confidence intervals for fitted parameters."
+  ]
+}

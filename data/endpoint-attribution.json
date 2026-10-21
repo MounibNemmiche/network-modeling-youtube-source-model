@@ -1,0 +1,281 @@
+{
+  "run": "youtube_20261020T145336Z",
+  "purpose": "Browser response observations used to identify the media endpoint before packet selection",
+  "responses": [
+    {
+      "event": "response",
+      "elapsed_seconds": 3.1870000001508743,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 3.1870000001508743,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 9.405999999959022,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 9.405999999959022,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 17.562000000150874,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 17.562000000150874,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 23.625,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 23.625,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 27.67200000002049,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 29.687000000150874,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 35.75,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 45.82799999997951,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 67.95299999997951,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 90.10899999993853,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 110.28099999995902,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 134.4529999999795,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 156.60899999993853,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 176.7970000000205,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 196.93700000015087,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 223.09400000004098,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 247.31200000015087,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 271.469000000041,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 295.655999999959,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 319.844000000041,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    },
+    {
+      "event": "response",
+      "elapsed_seconds": 343.98399999993853,
+      "host": "rr2---sn-2ohpa5-55.googlevideo.com",
+      "path": "/videoplayback",
+      "status": 200,
+      "remote_ip": "173.194.160.194",
+      "remote_port": 443,
+      "protocol": "http/1.1",
+      "mime_type": "application/vnd.yt-ump"
+    }
+  ]
+}
